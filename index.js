@@ -60,10 +60,11 @@ function makeSound(key){
 function buttonAnimation(currentKey){
    var activeButton = document.querySelector("." + currentKey)
    activeButton.classList.add("pressed");
-   
+
    setTimeout (function(){
    activeButton.classList.remove("pressed");
    }, 100);
 }
 // var audio = new Audio("sounds/tom-1.mp3");
 // audio.play();
+
